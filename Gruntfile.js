@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
 		uglify: {
 			options: {
-				banner: '/*! <%= pkg.name %> */\n' +
+				banner: '/*! <%= pkg.name %> <%= pkg.version %> */\n' +
 				'/*  See https://github.com/washingtonstateuniversity/showcase.wsu.edu/ for full source.*/\n'
 			},
 			theme: {
