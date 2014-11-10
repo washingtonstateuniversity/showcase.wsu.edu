@@ -1,0 +1,13 @@
+{
+	"name": "wsu-showcase",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/washingtonstateuniversity/showcase.wsu.edu"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"grunt-contrib-uglify": "~0.2.2",
+		"grunt-contrib-watch": "~0.6.1"
+	}
+}

@@ -9,5 +9,5 @@ add_action( 'wp_enqueue_scripts', 'spine_child_enqueue_scripts', 11 );
  * As with the action above, change the prefix of this function from spine_child
  */
 function spine_child_enqueue_scripts() {
-	wp_enqueue_script( 'wsu-showcase', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ), spine_get_script_version(), true );
+	wp_enqueue_script( 'wsu-showcase', get_stylesheet_directory_uri() . '/js/custom.min.js', array( 'jquery' ), spine_get_script_version(), true );
 }
